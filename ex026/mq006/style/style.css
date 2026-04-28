@@ -34,7 +34,7 @@ header {
     }
 
     menu {
-        display: block;
+        display: none;
 
         ul {
             list-style-type: none;
