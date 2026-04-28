@@ -20,9 +20,20 @@ Grandes telas: acima de 1200px
         background-image: url(../imagens/back-print.jpg);
     }
 
-    main h1 {
-        text-shadow: none;
-        color: black;
+    main {
+        width: 90vw;
+        border: 2px solid black;
+
+            &::after {
+                content: 'Essa impressão foi feita através do CursoemVideo';
+                /* text-decoration: overline; */
+            }
+
+        h1 {
+            text-shadow: none;
+            color: black;
+        }
+
     }
 
     img#phone  { display: none; }
