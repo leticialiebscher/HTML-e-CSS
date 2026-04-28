@@ -19,6 +19,20 @@ header {
         color: white;
     }
 
+    #burguer {
+        background-color: rgb(138, 2, 24);
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(201, 55, 80);
+            color: thistle;
+        }
+    }
+
     menu {
         display: block;
 
